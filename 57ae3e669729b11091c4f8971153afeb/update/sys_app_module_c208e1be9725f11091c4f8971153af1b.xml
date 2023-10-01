@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Gestão de Inventário">96c2b4be9721f11091c4f8971153aff6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Gestão de Inventário (Portal)</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/gestao-de-inventarios</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 18:30:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c208e1be9725f11091c4f8971153af1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gestão de Inventário (Portal)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_update_name>sys_app_module_c208e1be9725f11091c4f8971153af1b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 18:30:43</sys_updated_on>
+        <timeline_page/>
+        <title>Gestão de Inventário (Portal)</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>Gestão de Inventários (Portal)</window_name>
+    </sys_app_module>
+</record_update>

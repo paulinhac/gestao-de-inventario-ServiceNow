@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>short_description</display_field>
+        <field_list/>
+        <filter table="service_task">active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>4</order>
+        <order_by>sys_updated_on</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="3">99504efa97a5f11091c4f8971153af9a</sp_column>
+        <sp_page display_value="ticket">84af292247132100ba13a5554ee4909e</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 20:14:42</sys_created_on>
+        <sys_id>99504efa97a5f11091c4f8971153afa5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>My Service Requests</sys_name>
+        <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_update_name>sp_instance_vlist_99504efa97a5f11091c4f8971153afa5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:34:35</sys_updated_on>
+        <table>service_task</table>
+        <title>My Service Requests</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=99504efa97a5f11091c4f8971153afa5"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</application>
+        <file_path/>
+        <instance_id>7668083edbbe411042b321c4059619a2</instance_id>
+        <instance_name>dev126344</instance_name>
+        <name>sp_instance_vlist_99504efa97a5f11091c4f8971153afa5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_vlist"&gt;&lt;sp_instance_vlist action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;display_field&gt;short_description&lt;/display_field&gt;&lt;field_list/&gt;&lt;filter table="service_task"&gt;active=true^opened_byDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ&lt;item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/&gt;&lt;item endquery="false" field="opened_by" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/&gt;&lt;item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/&gt;&lt;/filter&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;maximum_entries&gt;20&lt;/maximum_entries&gt;&lt;order&gt;4&lt;/order&gt;&lt;order_by&gt;sys_updated_on&lt;/order_by&gt;&lt;order_direction&gt;desc&lt;/order_direction&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="3"&gt;99504efa97a5f11091c4f8971153af9a&lt;/sp_column&gt;&lt;sp_page display_value="ticket"&gt;84af292247132100ba13a5554ee4909e&lt;/sp_page&gt;&lt;sp_widget display_value="Simple List"&gt;5b255672cb03020000f8d856634c9c28&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_vlist&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-10-01 20:14:42&lt;/sys_created_on&gt;&lt;sys_id&gt;99504efa97a5f11091c4f8971153afa5&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;My Service Requests&lt;/sys_name&gt;&lt;sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0"&gt;57ae3e669729b11091c4f8971153afeb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Gestão de Inventário"&gt;57ae3e669729b11091c4f8971153afeb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_vlist_99504efa97a5f11091c4f8971153afa5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-10-01 20:34:35&lt;/sys_updated_on&gt;&lt;table&gt;service_task&lt;/table&gt;&lt;title&gt;My Service Requests&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"always_show": {
+		"displayValue": false,
+		"value": false
+	},
+	"image_field": {
+		"value": null,
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_updated_on",
+		"displayValue": "number,sys_updated_on"
+	},
+	"panel_body_height": {
+		"value": null,
+		"displayValue": ""
+	},
+	"rounded_images": {
+		"displayValue": true,
+		"value": true
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_vlist&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=99504efa97a5f11091c4f8971153afa5"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1820873898</payload_hash>
+        <record_name>My Service Requests</record_name>
+        <reverted_from/>
+        <source>2f1021769725f11091c4f8971153af14</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 20:34:35</sys_created_on>
+        <sys_id>34e4067297e5f11091c4f8971153af79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aecf333420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:34:35</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>f8e4067241e5f11076196c1816cc3378</update_guid>
+        <update_guid_history>f8e4067241e5f11076196c1816cc3378:-1820873898,9d504efa11a5f11096bc15bb271804a6:-1583432555</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="My Service Requests">16b84e7697e5f11091c4f8971153af74</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 20:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>ab5cbfe4177d4cd98824ea8e41c43589</sys_id>
+        <sys_metadata>99504efa97a5f11091c4f8971153afa5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Service Requests</sys_name>
+        <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_scope_delete display_value="">61fd4d25c1fd4e089377ca327aa02440</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_99504efa97a5f11091c4f8971153afa5</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_99504efa97a5f11091c4f8971153afa5">34e4067297e5f11091c4f8971153af79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 20:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
