@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Gestão de Inventário">96c2b4be9721f11091c4f8971153aff6</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Produtos</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1128311_gest_o_0_produtos</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_1128311_gest_o_0.admin,x_1128311_gest_o_0.analistas,x_1128311_gest_o_0.analistas_assy,x_1128311_gest_o_0.supervisores,x_1128311_gest_o_0.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 14:40:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8d833cbe9721f11091c4f8971153af84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Produtos</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_update_name>sys_app_module_8d833cbe9721f11091c4f8971153af84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 14:40:21</sys_updated_on>
+        <timeline_page/>
+        <title>Produtos</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
