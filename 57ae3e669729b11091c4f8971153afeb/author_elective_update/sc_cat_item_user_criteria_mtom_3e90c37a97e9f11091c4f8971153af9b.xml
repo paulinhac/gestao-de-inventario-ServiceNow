@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Equipamentos">656bbeb297e9f11091c4f8971153af6f</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 00:55:30</sys_created_on>
+        <sys_id>3e90c37a97e9f11091c4f8971153af9b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipamentos.Any User</sys_name>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3e90c37a97e9f11091c4f8971153af9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 00:55:30</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</application>
+        <file_path/>
+        <instance_id>7668083edbbe411042b321c4059619a2</instance_id>
+        <instance_name>dev126344</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_3e90c37a97e9f11091c4f8971153af9b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Equipamentos">656bbeb297e9f11091c4f8971153af6f</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-02 00:55:30</sys_created_on><sys_id>3e90c37a97e9f11091c4f8971153af9b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Equipamentos.Any User</sys_name><sys_package/><sys_policy/><sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_3e90c37a97e9f11091c4f8971153af9b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-02 00:55:30</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>372074594</payload_hash>
+        <record_name>Equipamentos.Any User</record_name>
+        <reverted_from/>
+        <source>e2a0477a97e9f11091c4f8971153af78</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 00:55:46</sys_created_on>
+        <sys_id>b6a0877a97e9f11091c4f8971153af36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18aede2511f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 00:55:46</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>faa0877ad2e9f1101104a41dc28cdd35</update_guid>
+        <update_guid_history>faa0877ad2e9f1101104a41dc28cdd35:372074594,f6a0877a81e9f1105d9b08ccb879cf26:218742075</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Equipamentos.Any User">98c107f697e9f11091c4f8971153af5f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-02 01:00:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0175508011134a46bfb3b905cd868704</sys_id>
+        <sys_metadata>3e90c37a97e9f11091c4f8971153af9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Equipamentos.Any User</sys_name>
+        <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
+        <sys_scope_delete display_value="">61fd4d25c1fd4e089377ca327aa02440</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3e90c37a97e9f11091c4f8971153af9b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_3e90c37a97e9f11091c4f8971153af9b">b6a0877a97e9f11091c4f8971153af36</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-02 01:00:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

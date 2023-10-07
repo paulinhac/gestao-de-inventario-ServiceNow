@@ -4,14 +4,14 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=5405000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=30067000,viewActivatedIn=naturalLanguage</attributes>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
         <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>automatizao_de_pedidos</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{}},{"name":"23209e8b-1e72-4ed5-83f7-88f9c88b592e.record","label":"1 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.159720729721f11091c4f8971153afa3}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8674d83c-663d-49a6-aa75-43a54537d360.Record","label":"10 - Look Up Record➛Produtos Record","reference":"x_1128311_gest_o_0_produtos","reference_display":"Produtos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.produtos.item","label":"Trigger - Record Created➛Pedidos Record➛Produtos➛Item ","reference":"","reference_display":"Item ","type":"string","base_type":"string","parent_table_name":"x_1128311_gest_o_0_produtos","column_name":"item"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Pedidos Table","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"3d2f9f76-39c2-4118-810f-ed9c1a3891f0.record","label":"9 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{}},{"name":"23209e8b-1e72-4ed5-83f7-88f9c88b592e.record","label":"1 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.159720729721f11091c4f8971153afa3}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8674d83c-663d-49a6-aa75-43a54537d360.Record","label":"10 - Look Up Record➛Produtos Record","reference":"x_1128311_gest_o_0_produtos","reference_display":"Produtos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>bda5093697a1f11091c4f8971153af55</master_snapshot>
         <name>Automatização de pedidos</name>
         <natlang/>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f66c3c7a9761f11091c4f8971153af62</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>Automatização de pedidos</sys_name>
         <sys_overrides/>
         <sys_package display_value="Gestão de Inventário" source="x_1128311_gest_o_0">57ae3e669729b11091c4f8971153afeb</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name>sys_hub_flow_f66c3c7a9761f11091c4f8971153af62</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f66c3c7a9761f11091c4f8971153af62"/>
@@ -75,14 +75,14 @@
         <identifier>f66c3c7a9761f11091c4f8971153af62</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-10-01 16:48:07</sys_created_on>
-        <sys_id>e30199f297e1f11091c4f8971153afec</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2023-10-01 23:39:10</sys_created_on>
+        <sys_id>282f263697a9f11091c4f8971153af12</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:07</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <trigger display_value="">6b0199f297e1f11091c4f8971153afeb</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f66c3c7a9761f11091c4f8971153af62^sys_idNOT INe30199f297e1f11091c4f8971153afec"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=f66c3c7a9761f11091c4f8971153af62^sys_idNOT IN282f263697a9f11091c4f8971153af12"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=f66c3c7a9761f11091c4f8971153af62^sys_idNOT INd285c13697a1f11091c4f8971153afdb"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -93,10 +93,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>d285c13697a1f11091c4f8971153afdb</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -237,14 +237,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>8e85c13697a1f11091c4f8971153afd6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -321,14 +321,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:47</sys_created_on>
         <sys_id>c685c13697a1f11091c4f8971153afd3</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:07</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -360,10 +360,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>1e85053697a1f11091c4f8971153af39</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>a64caf25-4f1b-43ce-8f42-9b73723350fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=1e85053697a1f11091c4f8971153af39"/>
@@ -449,10 +449,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5685053697a1f11091c4f8971153af13</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>23209e8b-1e72-4ed5-83f7-88f9c88b592e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5685053697a1f11091c4f8971153af13"/>
@@ -538,10 +538,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5685053697a1f11091c4f8971153af31</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>934bbaf9-2d19-4c5c-bacc-d991e252f634</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5685053697a1f11091c4f8971153af31"/>
@@ -627,10 +627,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5a85053697a1f11091c4f8971153af43</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>1354fe19-1428-42b7-9745-414a4b14a2cb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a85053697a1f11091c4f8971153af43"/>
@@ -716,10 +716,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5a85053697a1f11091c4f8971153af58</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>16a55a72-dcb9-4c44-b120-5f70bd7ceb31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5a85053697a1f11091c4f8971153af58"/>
@@ -745,10 +745,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>9285053697a1f11091c4f8971153af5a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 15:57:48</sys_updated_on>
-        <value>quantidade=-1</value>
+        <sys_updated_on>2023-10-01 23:38:56</sys_updated_on>
+        <value>quantidade=fd-scripted</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=5a85053697a1f11091c4f8971153af58"/>
@@ -788,7 +788,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=5a85053697a1f11091c4f8971153af58"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5a85053697a1f11091c4f8971153af58^sys_idNOT IN451feef297a9f11091c4f8971153aff4"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>5a85053697a1f11091c4f8971153af58</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"quantidade":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar x \u003d fd_data._10__look_up_record.record.quantidade;\nx--;\nreturn x;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 23:38:56</sys_created_on>
+        <sys_id>451feef297a9f11091c4f8971153aff4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 23:38:56</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5a85053697a1f11091c4f8971153af58"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -805,10 +818,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5e85053697a1f11091c4f8971153af26</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>7af7b00c-a5d0-4d18-9ffc-2a91415437d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5e85053697a1f11091c4f8971153af26"/>
@@ -958,10 +971,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>5e85053697a1f11091c4f8971153af49</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>3d2f9f76-39c2-4118-810f-ed9c1a3891f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5e85053697a1f11091c4f8971153af49"/>
@@ -1047,10 +1060,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>da85053697a1f11091c4f8971153af52</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:49:10</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:58</sys_updated_on>
         <ui_id>8674d83c-663d-49a6-aa75-43a54537d360</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=da85053697a1f11091c4f8971153af52"/>
@@ -1075,11 +1088,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>9285053697a1f11091c4f8971153af54</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 15:57:48</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:38:56</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
-        <value>item={{23209e8b-1e72-4ed5-83f7-88f9c88b592e.record}}</value>
+        <value>item={{Created_1.current.produtos.item}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1120,10 +1133,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>1a85053697a1f11091c4f8971153af2a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <ui_id>04cac6c6-3f6b-4717-9aa9-345213791b3c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1166,10 +1179,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>9285053697a1f11091c4f8971153af3c</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <ui_id>38c81c9b-4d10-4b9a-b73a-0685723c1ad1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1199,10 +1212,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:57:48</sys_created_on>
         <sys_id>da85053697a1f11091c4f8971153af33</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:08</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <ui_id>9308b288-afb3-4e1c-9be0-e4725efc7ad1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1274,7 +1287,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>automatizao_de_pedidos</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{}},{"name":"23209e8b-1e72-4ed5-83f7-88f9c88b592e.record","label":"1 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.159720729721f11091c4f8971153afa3}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8674d83c-663d-49a6-aa75-43a54537d360.Record","label":"10 - Look Up Record➛Produtos Record","reference":"x_1128311_gest_o_0_produtos","reference_display":"Produtos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current.produtos.item","label":"Trigger - Record Created➛Pedidos Record➛Produtos➛Item ","reference":"","reference_display":"Item ","type":"string","base_type":"string","parent_table_name":"x_1128311_gest_o_0_produtos","column_name":"item"},{"name":"Created_1.table_name","label":"Trigger - Record Created➛Pedidos Table","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"table_name","base_type":"table_name","attributes":{"test_input_hidden":"true"}},{"name":"3d2f9f76-39c2-4118-810f-ed9c1a3891f0.record","label":"9 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{}},{"name":"23209e8b-1e72-4ed5-83f7-88f9c88b592e.record","label":"1 - Update Record➛Pedidos Record","reference":"x_1128311_gest_o_0_pedidos","reference_display":"Pedidos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.159720729721f11091c4f8971153afa3}}","label":"Supervisores","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"8674d83c-663d-49a6-aa75-43a54537d360.Record","label":"10 - Look Up Record➛Produtos Record","reference":"x_1128311_gest_o_0_produtos","reference_display":"Produtos","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7af7b00c-a5d0-4d18-9ffc-2a91415437d8.__action_status__","label":"2 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master>true</master>
         <name>Automatização de pedidos</name>
         <natlang/>
@@ -1291,7 +1304,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bda5093697a1f11091c4f8971153af55</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1299,7 +1312,7 @@
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=bda5093697a1f11091c4f8971153af55"/>
@@ -1314,10 +1327,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:20</sys_created_on>
         <sys_id>8aa5093697a1f11091c4f8971153afbf</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:07</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1458,14 +1471,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>71a5093697a1f11091c4f8971153af6c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1542,14 +1555,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:18</sys_created_on>
         <sys_id>bda5093697a1f11091c4f8971153af57</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -1581,10 +1594,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>3da5093697a1f11091c4f8971153af85</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <ui_id>23209e8b-1e72-4ed5-83f7-88f9c88b592e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=3da5093697a1f11091c4f8971153af85"/>
@@ -1670,10 +1683,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>75a5093697a1f11091c4f8971153afac</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>3d2f9f76-39c2-4118-810f-ed9c1a3891f0</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=75a5093697a1f11091c4f8971153afac"/>
@@ -1759,10 +1772,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>8aa5093697a1f11091c4f8971153afb7</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>8674d83c-663d-49a6-aa75-43a54537d360</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8aa5093697a1f11091c4f8971153afb7"/>
@@ -1787,11 +1800,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>42a5093697a1f11091c4f8971153afb9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 15:58:19</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
-        <value>item={{23209e8b-1e72-4ed5-83f7-88f9c88b592e.record}}</value>
+        <value>item={{Created_1.current.produtos.item}}</value>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>table</field>
@@ -1822,10 +1835,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:20</sys_created_on>
         <sys_id>8aa5093697a1f11091c4f8971153afbd</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>16a55a72-dcb9-4c44-b120-5f70bd7ceb31</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8aa5093697a1f11091c4f8971153afbd"/>
@@ -1851,10 +1864,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:20</sys_created_on>
         <sys_id>c2a5093697a1f11091c4f8971153afbf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 15:58:20</sys_updated_on>
-        <value>quantidade=-1</value>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
+        <value>quantidade=fd-scripted</value>
         <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8aa5093697a1f11091c4f8971153afbd"/>
@@ -1894,7 +1907,20 @@
         <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
         <value/>
     </sys_element_mapping>
-    <sys_hub_input_scripts action="delete_multiple" query="instance=8aa5093697a1f11091c4f8971153afbd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=8aa5093697a1f11091c4f8971153afbd^sys_idNOT IN482fe23697a9f11091c4f8971153af43"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>8aa5093697a1f11091c4f8971153afbd</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"quantidade":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nvar x \u003d fd_data._10__look_up_record.record.quantidade;\nx--;\nreturn x;","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-01 23:39:08</sys_created_on>
+        <sys_id>482fe23697a9f11091c4f8971153af43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
+    </sys_hub_input_scripts>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8aa5093697a1f11091c4f8971153afbd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
@@ -1911,10 +1937,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>b1a5093697a1f11091c4f8971153af8f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <ui_id>7af7b00c-a5d0-4d18-9ffc-2a91415437d8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b1a5093697a1f11091c4f8971153af8f"/>
@@ -2064,10 +2090,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>f5a5093697a1f11091c4f8971153af96</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <ui_id>934bbaf9-2d19-4c5c-bacc-d991e252f634</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5a5093697a1f11091c4f8971153af96"/>
@@ -2153,10 +2179,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>f5a5093697a1f11091c4f8971153af9c</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>a64caf25-4f1b-43ce-8f42-9b73723350fb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=f5a5093697a1f11091c4f8971153af9c"/>
@@ -2242,10 +2268,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>fda5093697a1f11091c4f8971153afa5</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>1354fe19-1428-42b7-9745-414a4b14a2cb</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=fda5093697a1f11091c4f8971153afa5"/>
@@ -2340,10 +2366,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>b9a5093697a1f11091c4f8971153af7a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>9308b288-afb3-4e1c-9be0-e4725efc7ad1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2373,10 +2399,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>f5a5093697a1f11091c4f8971153af7d</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:09</sys_updated_on>
         <ui_id>38c81c9b-4d10-4b9a-b73a-0685723c1ad1</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2407,10 +2433,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:19</sys_created_on>
         <sys_id>fda5093697a1f11091c4f8971153af76</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="Gestão de Inventário">57ae3e669729b11091c4f8971153afeb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:06</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:08</sys_updated_on>
         <ui_id>04cac6c6-3f6b-4717-9aa9-345213791b3c</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -2493,17 +2519,17 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d2a5493697a1f11091c4f8971153af3e","name":"plan","plan_signature":null}}</plan>
         <plan_id>f66c3c7a9761f11091c4f8971153af62</plan_id>
-        <snapshot>6a41513697e1f11091c4f8971153afce</snapshot>
+        <snapshot>145f6a3697a9f11091c4f8971153af18</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-01 15:58:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2a5493697a1f11091c4f8971153af3e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-01 16:48:07</sys_updated_on>
+        <sys_updated_on>2023-10-01 23:39:10</sys_updated_on>
         <trigger display_value="">6b0199f297e1f11091c4f8971153afeb</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=f66c3c7a9761f11091c4f8971153af62"/>
